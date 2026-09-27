@@ -11,6 +11,11 @@ class Employee:
     @classmethod
     def updatemail(cls,new_company):
         cls.company=new_company
+        
+    @staticmethod
+    def staticupdate():
+        print("i am static as hell")
+
 
 Employee.updatemail("BMW")
 emp=Employee("sachin","ramesh")
