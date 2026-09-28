@@ -7,17 +7,15 @@ class Employee:
 
     def getmailid(self):
         return(f"Mail id is {self.firstname}{self.secondname}@{Employee.company}.com")
-    
     @classmethod
     def updatemail(cls,new_company):
         cls.company=new_company
-        
-    @staticmethod
-    def staticupdate():
-        print("i am static as hell")
-
 
 Employee.updatemail("BMW")
+
+        
+
+
+
 emp=Employee("sachin","ramesh")
 print(emp.getmailid())
-print("hi")
