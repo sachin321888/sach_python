@@ -6,6 +6,7 @@ class Employee:
 
     def get_salary(self):
         print(f"salary of parent {self.name} is {self.salary}")
+        print("hiiii")
 
     def set_salary(self,salaryy):
         self.salary=salaryy
