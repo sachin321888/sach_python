@@ -30,8 +30,9 @@ class Developer(Employee,Person):
 
     
     def get_salary(self):
-        print(f"salary of child {self.name} is {self.salary}")
-        print(f"hiii")
+        print(f"salary of child {self.name} is {self.salary}") 
+        print("myyy")
+
 
     def all_in(self):
         print(f"name is {self.name}, \nage is {self.age}, \nsalary is {self.salary}, \nsex is {self.sex}, \nlanguage is {self.language}")
