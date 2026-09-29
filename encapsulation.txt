@@ -1,0 +1,24 @@
+
+#Encapsulation
+class Employee:
+    def __init__(self):
+        self.__salary=5000
+
+    def get_salary(self):
+        return (self.__salary)
+
+    def set_Salary(self,amount):
+        if amount >0 :
+            self.__salary=self.__salary+amount
+        else :
+            print("invalid amount")
+
+emp = Employee()
+print(emp.get_salary())
+
+emp.set_Salary(6780)
+print(emp.get_salary())
+
+            
+
+        
